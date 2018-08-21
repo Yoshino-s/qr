@@ -1,5 +1,5 @@
-pkg install python python-dev
-pkg install curl wget git 
+pkg install python python-dev -y
+pkg install curl wget git -y
 pip install requests
 wget https://raw.githubusercontent.com/Yoshino-s/qr/master/sources.list
 wget https://raw.githubusercontent.com/Yoshino-s/qr/master/sop.py 
