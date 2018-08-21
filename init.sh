@@ -7,6 +7,6 @@ cp ~/../usr/etc/apt/sources.list ~/../usr/etc/apt/sources.list
 cp ./sources.list ~/../usr/etc/apt/sources.list 
 termux-setup-storage
 mkdir /sdcard/sop/
-ln /sdcard/sop/ sop 
+ln /sdcard/sop/ sop -s 
 cp ./sop.py ~/sop/sop.py 
 echo "Success"
